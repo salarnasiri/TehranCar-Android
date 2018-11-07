@@ -1,15 +1,13 @@
 package com.sqtehrancar.tehrancarandroid.view.activities;
 
 
+
 import android.os.Bundle;
-import android.support.constraint.Guideline;
 import android.support.v4.content.res.ResourcesCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.AppCompatCheckBox;
 import android.support.v7.widget.AppCompatEditText;
 import android.view.View;
-import android.widget.Button;
-import android.widget.ImageView;
 
 import com.sqtehrancar.tehrancarandroid.R;
 
