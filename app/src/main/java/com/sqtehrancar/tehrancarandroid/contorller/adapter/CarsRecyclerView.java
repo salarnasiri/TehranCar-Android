@@ -1,4 +1,4 @@
-package com.sqtehrancar.tehrancarandroid.adapter;
+package com.sqtehrancar.tehrancarandroid.contorller.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -16,7 +16,7 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class CarRecyclerView extends RecyclerView.Adapter<CarRecyclerView.ViewHolder> {
+public class CarsRecyclerView extends  RecyclerView.Adapter<CarsRecyclerView.ViewHolder> {
 
 
     private Context context;
@@ -24,14 +24,14 @@ public class CarRecyclerView extends RecyclerView.Adapter<CarRecyclerView.ViewHo
     private OnItemClickListener onItemClickListener;
     private boolean isAdmin = true;
 
-    public CarRecyclerView(Context context, List<Car> list,
-                           OnItemClickListener onItemClickListener) {
+    public CarsRecyclerView(Context context, List<Car> list,
+                            OnItemClickListener onItemClickListener) {
         this.context = context;
         this.list = list;
         this.onItemClickListener = onItemClickListener;
     }
 
-    public CarRecyclerView(Context context, List<Car> list) {
+    public CarsRecyclerView(Context context, List<Car> list) {
         this.context = context;
         this.list = list;
         this.onItemClickListener = null;

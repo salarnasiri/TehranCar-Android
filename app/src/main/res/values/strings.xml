@@ -5,4 +5,9 @@
     <string name="admin">Admin</string>
     <string name="create_new_account">Create New Account</string>
     <string name="login">Login</string>
+    <string name="delete">Delete</string>
+    <string name="price">Price</string>
+    <string name="kilometer">Kilometer</string>
+    <string name="factory">Factory</string>
+    <string name="car_name">Car Name</string>
 </resources>
