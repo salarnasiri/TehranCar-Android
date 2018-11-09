@@ -26,4 +26,7 @@ public interface ApiService {
 
     @DELETE("/app/deleteCar/{id}")
     Call<ResponseJson> deleteCar(@Path("id") int id);
+
+    @POST("/app/addCar")
+    Call<Car> addCar(@Body Car car);
 }

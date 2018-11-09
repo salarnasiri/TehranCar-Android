@@ -10,4 +10,9 @@
     <string name="kilometer">Kilometer</string>
     <string name="factory">Factory</string>
     <string name="car_name">Car Name</string>
+    <string name="add_car">Add Car</string>
+    <string name="is_automate">Automate</string>
+    <string name="color">Color</string>
+    <string name="year">Year</string>
+
 </resources>
