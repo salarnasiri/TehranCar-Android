@@ -78,6 +78,7 @@ public class LoginActivity extends AppCompatActivity {
                 }
                 break;
             case R.id.button_signup:
+                startActivity(new Intent(LoginActivity.this,WebViewActivity.class));
                 break;
         }
     }
