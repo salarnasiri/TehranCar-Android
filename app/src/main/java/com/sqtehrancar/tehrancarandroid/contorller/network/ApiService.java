@@ -18,15 +18,15 @@ import retrofit2.http.Path;
 public interface ApiService {
 
 
-    @POST("/app/login")
+    @POST("/api/login")
     Call<User> loginUser(@Body LoginInfo user);
 
-    @GET("/app/listCar")
+    @GET("/api/listCar")
     Call<List<Car>> getAllCars();
 
-    @DELETE("/app/deleteCar/{id}")
+    @DELETE("/api/deleteCar/{id}")
     Call<ResponseJson> deleteCar(@Path("id") int id);
 
-    @POST("/app/addCar")
+    @POST("/api/addCar")
     Call<Car> addCar(@Body Car car);
 }

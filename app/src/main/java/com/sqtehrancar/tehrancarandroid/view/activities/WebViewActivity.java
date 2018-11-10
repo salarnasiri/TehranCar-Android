@@ -28,7 +28,7 @@ public  class WebViewActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web_view);
         Intent browserIntent = new Intent(Intent.ACTION_VIEW,
-                Uri.parse("http://172.17.11.134:5000/web"));
+                Uri.parse("http://172.17.8.51:5000/"));
         startActivity(browserIntent);
     }
 
